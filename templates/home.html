@@ -4,14 +4,77 @@
     <meta charset="UTF-8">
     <title>Home Page</title>
     <style>
+        body{
+            background-image: url('https://i.pinimg.com/originals/3d/2e/80/3d2e809c616523c568d045bf2b0e54c6.jpg');
+        }
         #head{
             font-family: helvetica;
             font-size: 52px;
-            color: #071317;
+            color: #fff;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background-color: #0c2026;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            padding: 17px 20px;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+        li a:hover{
+            background-color: #153944;
+        }
+        #b-head{
+            padding: 3px;
+            font-size: 20px;
+            font-family: helvetica;
+            color: #fff;
+            background-color: #000033;
+        }
+        .home-info{
+            background-color: rgba(0,0,0,0.2);
+            font-family: sans-serif;
+            padding: 20px;
+            font-size: 20px;
+            color: #fff;
+            position: absolute;
+            left: 0.5%;
+            right: 70%;
         }
     </style>
 </head>
 <body>
-    <span id="head">Welcome to the Home Page</span>
+    <ul>
+        <li><a href="\home">Home</a></li>
+        <li><a href="\signup">Signup</a></li>
+        <li><a href="signin">Signin</a></li>
+        <li><a href="\blog">Blog</a></li>
+        <li><a href="\about">About</a></li>
+    </ul><br>
+    <center><span id="head">Welcome to the <b>Master Investor</b></span></center><br>
+    <div id="b-head"><marquee>Soch kar, Samajh kar, Invest kar!</marquee></div><br>
+    <div class="home-info">
+        <p>
+            <b>Master Investor</b> is the only destination to enhance the investing and marketing skills in you! Signup for free today
+            and unravel the magic of the hidden stockbroker in you! Here you get everything you need to know
+            about finance, marketing, investing and what not to be the best investor in the making. Get
+            numerous blogs, info, articles, links to important sites all at the same place. This is a very
+            special place to develop your temperament to become a successful businessman, hone your skills
+            to foretell the market situations, and make big hits against all odds! Become the 'Big Bull' like
+            Harshad Mehta and start your career today.<br><br>
+            <img src="https://www.universitymagazine.ca/wp-content/uploads/2020/04/How-To-Become-A-Stock-Broker.jpg"
+            style="width: 525px; height: 330px">
+        </p>
+    </div>
 </body>
 </html>

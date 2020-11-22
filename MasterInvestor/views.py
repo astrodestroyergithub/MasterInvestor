@@ -10,10 +10,13 @@ def home(request):
     return render(request, 'home.html')
 
 def signup(request):
-    return HttpResponse("Signup Here...")
+    return HttpResponse("Signup Here")
 
 def signin(request):
-    return HttpResponse("Signin Here...")
+    return HttpResponse("Signin Here")
+
+def blog(request):
+    return render(request, 'blog.html')
 
 def about(request):
-    return HttpResponse("Welcome to about page")
+    return render(request, 'about.html')
